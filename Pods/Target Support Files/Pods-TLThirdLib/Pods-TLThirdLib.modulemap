@@ -1,0 +1,6 @@
+framework module Pods_TLThirdLib {
+  umbrella header "Pods-TLThirdLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
