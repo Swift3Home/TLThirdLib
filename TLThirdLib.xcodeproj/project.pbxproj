@@ -13,6 +13,8 @@
 		7E4F55A91F8F6AAC004571F3 /* TLThirdLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4F55A81F8F6AAC004571F3 /* TLThirdLibTests.swift */; };
 		7E4F55B41F8F6AAC004571F3 /* TLThirdLibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4F55B31F8F6AAC004571F3 /* TLThirdLibUITests.swift */; };
 		7E4F55C21F8F72DF004571F3 /* TLRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4F55C11F8F72DF004571F3 /* TLRootViewController.swift */; };
+		7E4F55C51F9048F0004571F3 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4F55C41F9048E7004571F3 /* Bundle+Extensions.swift */; };
+		7E4F55C81F904BDF004571F3 /* TLCryptoSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4F55C71F904BDF004571F3 /* TLCryptoSwiftVC.swift */; };
 		E563BA639ABD67291ED65EC9 /* Pods_TLThirdLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369D38ED27861964418B8445 /* Pods_TLThirdLib.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		7E4F55B31F8F6AAC004571F3 /* TLThirdLibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLThirdLibUITests.swift; sourceTree = "<group>"; };
 		7E4F55B51F8F6AAC004571F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E4F55C11F8F72DF004571F3 /* TLRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLRootViewController.swift; sourceTree = "<group>"; };
+		7E4F55C41F9048E7004571F3 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		7E4F55C71F904BDF004571F3 /* TLCryptoSwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLCryptoSwiftVC.swift; sourceTree = "<group>"; };
 		DE63F0DC844F2665A4E596CC /* Pods-TLThirdLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLThirdLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLThirdLib/Pods-TLThirdLib.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +123,8 @@
 		7E4F55921F8F6AAB004571F3 /* TLThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				7E4F55C61F904BC8004571F3 /* TLCryptoSwift */,
+				7E4F55C31F9048E7004571F3 /* Extensions */,
 				7E4F55931F8F6AAB004571F3 /* AppDelegate.swift */,
 				7E4F55C11F8F72DF004571F3 /* TLRootViewController.swift */,
 				7E4F559A1F8F6AAB004571F3 /* Assets.xcassets */,
@@ -144,6 +150,22 @@
 				7E4F55B51F8F6AAC004571F3 /* Info.plist */,
 			);
 			path = TLThirdLibUITests;
+			sourceTree = "<group>";
+		};
+		7E4F55C31F9048E7004571F3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E4F55C41F9048E7004571F3 /* Bundle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7E4F55C61F904BC8004571F3 /* TLCryptoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7E4F55C71F904BDF004571F3 /* TLCryptoSwiftVC.swift */,
+			);
+			path = TLCryptoSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,8 +352,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E4F55C51F9048F0004571F3 /* Bundle+Extensions.swift in Sources */,
 				7E4F55C21F8F72DF004571F3 /* TLRootViewController.swift in Sources */,
 				7E4F55941F8F6AAB004571F3 /* AppDelegate.swift in Sources */,
+				7E4F55C81F904BDF004571F3 /* TLCryptoSwiftVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
